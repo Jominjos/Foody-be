@@ -37,12 +37,12 @@ module.exports = {
         userData.email,
         "SignUp Verification",
         `
-        <h2 > QDEMY EMAIL VERIFICATION</h2>
+        <h2 > FOODY EMAIL VERIFICATION</h2>
         <h3>Dear User,</h3>
 
         <h3> We hope this message finds you well. To ensure the security of your account, we require you to verify your sign-in attempt.</h3>
         
-        <a href="https://qdemy.onrender.com/api/user/verify/${token}">👉Click to verify</a>
+        <a href="https://foody-be.onrender.com/api/user/verify/${token}">👉Click to verify</a>
         `
       );
       res.status(200).json({ message: "Check inbox or Spam Folder" });

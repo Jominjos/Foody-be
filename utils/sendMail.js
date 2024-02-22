@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
 module.exports = async function sendMail(ToMails, Subject, Content) {
   try {
     const info = await transporter.sendMail({
-      from: "Qdemy  <qdemycorp@gmail.com>", // sender address
+      from: "FOODY  <qdemycorp@gmail.com>", // sender address
       to: ToMails, // list of receivers
       subject: Subject, // Subject line
 
