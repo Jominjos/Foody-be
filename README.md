@@ -1,6 +1,7 @@
 Foody Backend
 Url:https://foody-be.onrender.com
-Api documentation:https://documenter.getpostman.com/view/29415423/2sA2rCT1PT
+
+Api docs:https://documenter.getpostman.com/view/29415423/2sA2rCT1PT
 
 # Express.js Backend for User Authorization
 
