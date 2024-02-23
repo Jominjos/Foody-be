@@ -71,7 +71,7 @@ module.exports = {
         // console.log(userCreated);
         // console.log(dbdata);
       } else {
-        res.redirect("http://localhost:6003/login");
+        res.redirect("https://foody4.netlify.app/login");
       }
     } catch (e) {
       console.log(e);
